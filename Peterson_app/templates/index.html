@@ -1,0 +1,26 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'My_index' %}">Home</a>
+<a href="{% url 'My_about' %}">About us</a>
+<a href="{% url 'My_blog' %}">Blog Us</a>
+<a href="{% url 'My_services' %}">services</a>
+<a href="{% url 'My_contact' %}">Contact Us</a>
+<a href="{% url 'My_assignment' %}"></a>
+<h2>welcome to Django.This is our landing page</h2>
+<p><span>kenya is a very goo d country where it has any</span>element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/ or first-line indentation, but HTML paragraphs can be any structural
+    grouping of related content, such as images or form fields.</p>
+<img src="{% static 'images/maxresdefault.jpg' %}" alt="">
+<img src="{% static 'images/maxresdefault (1).jpg' %}" alt="">
+
+</body>
+</html>
